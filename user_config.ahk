@@ -21,6 +21,10 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
+; Only use CapsLock for shortcuts and not for caps lock
+; So it's not left on when you don't complete a shortcut
+SetCapsLockState AlwaysOff
+
 CapsLock & 1::switchDesktopByNumber(1)
 CapsLock & 2::switchDesktopByNumber(2)
 CapsLock & 3::switchDesktopByNumber(3)
